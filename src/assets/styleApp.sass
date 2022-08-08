@@ -1,0 +1,43 @@
+// vars
+$navcolor-a: #1f1019
+$navcolor-btn: #736942
+$text-color: #fffff0
+
+*
+    font-family: Arial, Helvetica, sans-serif
+
+.nav-a
+    display: flex
+    flex-direction: row
+    align-items: center
+    background-color: $navcolor-a
+    height: 80px
+    .btn-nav
+        background-color: $navcolor-btn
+        height: 30px
+        min-width: 80px
+        max-width: auto
+        padding: 5px
+        margin-right: 5px
+        margin-left: 15px
+        display: flex
+        justify-content: center
+        align-items: center
+        color: $text-color
+        text-decoration: none
+        font-family: Arial, Helvetica, sans-serif
+        border-radius: 10px
+        &:hover
+            background-color: #eee
+            transform: translateY(5px)
+            color: $navcolor-a
+
+footer
+    display: flex
+    justify-content: center
+    align-items: center
+    color: $text-color
+    margin-top: 90px
+    height: 100px
+    background-color: $navcolor-a
+
